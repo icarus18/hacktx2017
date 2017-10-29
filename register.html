@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Sign</title>
+  <title>Sign Up</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -31,14 +31,58 @@
   
 <div class="container">
   <h3>Register</h3>
-  <p>Name</p>
-  <p>Car Mode</p>
-  <p>license plate</p>
-  <p>CrediCard Num</p>
-  <p>3 digits on the back</p>
-  <p>Name on the credit card</p>
-  <p>Experation Date</p>
-  <p>billing address</p>
+
+  <div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+    <input id="username" type="text" class="form-control" name="username" placeholder="Name">
+   </div>
+   <br/>
+
+   <div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-road"></i></span>
+    <input id="carModel" type="text" class="form-control" name="carmodel" placeholder="Car Model">
+   </div>
+   <br/>
+
+   <div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-record"></i></span>
+    <input id="licenseplate" type="text" class="form-control" name="licenseplate" placeholder="License plate number">
+   </div>
+   <br />
+
+   <h3>Payment Method</h3>
+
+   <div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-credit-card"></i></span>
+    <input id="credicard" type="text" class="form-control" name="credicard" placeholder="Credit Card Number">
+   </div>
+   <br />
+
+   <div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-credit-card"></i></span>
+    <input id="creditverificationvalue" type="text" class="form-control" name="cvv" placeholder="CVV">
+   </div>
+   <br />
+
+   <div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-credit-card"></i></span>
+    <input id="credicardName" type="text" class="form-control" name="creditcardname" placeholder="Card Holder's Name">
+   </div>
+   <br />
+
+   <div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-credit-card"></i></span>
+    <input id="expdate" type="text" class="form-control" name="expdate" placeholder="Experation Date">
+   </div>
+   <br />
+
+   <div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+    <input id="billingAddress" type="text" class="form-control" name="billingaddress" placeholder="Billing Address">
+   </div>
+
+
+
 </div>
 
 </body>
